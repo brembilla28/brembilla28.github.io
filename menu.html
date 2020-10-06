@@ -3,7 +3,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Luto Template</title>
+	<title>Pizza Time</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
@@ -25,7 +25,7 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
-	
+
 	<!-- Animate.css -->
 	<link rel="stylesheet" href="css/animate.css">
 	<!-- Icomoon Icon Fonts-->
@@ -62,14 +62,6 @@
 		<div class="js-fullheight colorlib-table">
 			<div class="colorlib-table-cell js-fullheight">
 				<div class="row">
-					<div class="col-md-6 col-md-offset-3">
-						<div class="form-group">
-							<input type="text" class="form-control" id="search" placeholder="Enter any key to search...">
-							<button type="submit" class="btn btn-primary"><i class="icon-search3"></i></button>
-						</div>
-					</div>
-				</div>
-				<div class="row">
 					<div class="col-md-12 text-center">
 						<ul>
 							<li><a href="index.html">Home</a></li>
@@ -85,7 +77,7 @@
 			</div>
 		</div>
 	</nav>
-	
+
 	<div id="colorlib-page">
 		<header>
 			<div class="container">
@@ -110,8 +102,8 @@
 				   				<div class="slider-text-inner text-center">
 				   					<div class="desc">
 				   						<span class="icon"><i class="flaticon-cutlery"></i></span>
-					   					<h1>Our Menu</h1>
-					   					<p><span><a href="#">Home</a></span> <span>Menu</span></p>
+					   					<h1>Il nostro menù</h1>
+					   					<p><span><!--a href="#">Home</a></span--> <span>2020/2021</span></p>
 					   					<div class="desc2"></div>
 				   					</div>
 				   				</div>
@@ -131,8 +123,8 @@
 							<span class="icon">
 								<i class="icon-map4"></i>
 							</span>
-							<h2>Address</h2>
-							<p>198 West 21th Street, Suite 721 New York NY 10016</p>
+							<h2>Indirizzo</h2>
+							<p><a href="https://www.google.com/maps/place/45%C2%B047'34.4%22N+9%C2%B040'05.0%22E/@45.7928839,9.6675128,139m/data=!3m2!1e3!4b1!4m6!3m5!1s0x0:0x0!7e2!8m2!3d45.7928833!4d9.6680598">Via Pietro Ruggeri 7, Zogno, Bergamo, IT</a></p>
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-6 text-center">
@@ -140,9 +132,9 @@
 							<span class="icon">
 								<i class="icon-clock4"></i>
 							</span>
-							<h2>Opening Time</h2>
-							<p>Monday - Sunday</p>
-							<span>8am - 9pm</span>
+							<h2>Orario di apertura</h2>
+							<p>Martedì - Domenica</p>
+							<span>18:0 - 21:30</span>
 						</div>
 					</div>
 					<div class="col-md-3 col-sm-6 text-center">
@@ -150,12 +142,11 @@
 							<span class="icon">
 								<i class="icon-mobile2"></i>
 							</span>
-							<h2>Phone</h2>
-							<p>+ 001 234 567</p>
-							<p>+ 001 234 567</p>
+							<h2>Telefono</h2>
+							<p>+39 0345 92748</p>
 						</div>
 					</div>
-					<div class="col-md-3 col-sm-6 text-center">
+					<!--div class="col-md-3 col-sm-6 text-center">
 						<div class="intro animate-box">
 							<span class="icon">
 								<i class="icon-envelope"></i>
@@ -163,7 +154,7 @@
 							<h2>Email</h2>
 							<p><a href="#">info@domain.com</a><br><a href="#">luto@email.com</a></p>
 						</div>
-					</div>
+					</div-->
 				</div>
 			</div>
 		</div>
@@ -173,8 +164,8 @@
 				<div class="row">
 					<div class="col-md-6 col-md-offset-3 text-center animate-box intro-heading">
 						<span class="icon"><i class="flaticon-cutlery"></i></span>
-						<h2>Lutong Bahay Menu</h2>
-						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life</p>
+						<h2 id="ptid">Pizza Time Menu</h2>
+						<p>FRASE AD EFFETTO</p>
 					</div>
 				</div>
 				<div class="row">
@@ -182,9 +173,12 @@
 						<div class="row">
 							<div class="col-md-12 text-center">
 								<ul class="nav nav-tabs text-center" role="tablist">
-									<li role="presentation" class="active"><a href="#main" aria-controls="mains" role="tab" data-toggle="tab">Main</a></li>
-									<li role="presentation"><a href="#desserts" aria-controls="desserts" role="tab" data-toggle="tab">Desserts</a></li>
-									<li role="presentation"><a href="#drinks" aria-controls="drinks" role="tab" data-toggle="tab">Drinks</a></li>
+									<li role="presentation" class="active"><a href="#pizze" aria-controls="mains" role="tab" data-toggle="tab">Pizze</a></li>
+									<li role="presentation"><a href="#piadine" aria-controls="desserts" role="tab" data-toggle="tab">Piadine</a></li>
+									<li role="presentation"><a href="#focacce" aria-controls="drinks" role="tab" data-toggle="tab">Focacce</a></li>
+									<li role="presentation"><a href="#fritti" aria-controls="drinks" role="tab" data-toggle="tab">Fritti</a></li>
+									<li role="presentation"><a href="#bevande" aria-controls="drinks" role="tab" data-toggle="tab">Bevande</a></li>
+
 								</ul>
 							</div>
 						</div>
@@ -198,9 +192,9 @@
 						                	<div class="dish-img" style="background-image: url(images/dish-3.jpg);"></div>
 						                </figure>
 						                <div class="text">
-						                  <span class="price">$25.99</span>
-						                  <h3>Grilled Beef with potatoes</h3>
-						                  <p class="cat">Meat / Potatoes / Rice / Tomatoe</p>
+						                  <span class="price">€7.00</span>
+						                  <h3>Affumicata</h3>
+						                  <p class="cat">mozzarella, scamorza, zucchine, pomodorini, grana</p>
 						                </div>
 						              </li>
 						              <li>
@@ -322,7 +316,7 @@
 								</div>
 							</div>
 
-							<div role="tabpanel" class="tab-pane" id="desserts">
+							<div role="tabpanel" class="tab-pane" id="piadine">
 								<div class="row">
 									<div class="col-md-6">
 										<ul class="menu-dish">
@@ -455,7 +449,7 @@
 								</div>
 							</div>
 
-							<div role="tabpanel" class="tab-pane" id="drinks">
+							<div role="tabpanel" class="tab-pane" id="focacce">
 								<div class="row">
 									<div class="col-md-6">
 										<ul class="menu-dish">
@@ -591,7 +585,7 @@
 					</div>
 					<div class="col-md-12 animate-box text-center">
 						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost</p>
-						<p><a href="#" class="btn btn-primary btn-outline btn-md">Book a table</a></p>
+						<p><a href="#ptid" class="btn btn-primary btn-outline btn-md">Torna su</a></p>
 					</div>
 				</div>
 			</div>
@@ -660,7 +654,7 @@
 							<p>
 								<span class="block">&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --><br></span> 
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --><br></span>
 								<span class="block">Demo Images: <a href="http://unsplash.com/" target="_blank">Unsplash</a> &amp; <a href="https://www.pexels.com/" target="_blank">Pexel</a></span>
 							</p>
 						</div>
@@ -668,7 +662,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 				</div>
 			</div>
 		</footer>
-	
+
 	</div>
 
 	<!-- jQuery -->
@@ -696,4 +690,3 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 
 	</body>
 </html>
-
